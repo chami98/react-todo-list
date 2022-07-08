@@ -16,7 +16,7 @@ function App() {
   useEffect(() => {
     filteredHandler();
     saveLocalTodos();
-  }, [status, todos]);
+  }, [todos, status]);
 
   const filteredHandler = () => {
     switch (status) {
@@ -35,7 +35,9 @@ function App() {
   };
 
   const saveLocalTodos = () => {
-    localStorage.setItem("todos", JSON.stringify(todos));
+    if (todos.length > 0) {
+      localStorage.setItem("todos", JSON.stringify(todos));
+    }
   };
 
   const getLocalTodos = () => {
@@ -45,6 +47,9 @@ function App() {
       let todoLocal = JSON.parse(localStorage.getItem("todos"));
       setTodos(todoLocal);
     }
+
+    let todoLocal = JSON.parse(localStorage.getItem("todos"));
+    setTodos(todoLocal);
   };
   return (
     <div className="App">
