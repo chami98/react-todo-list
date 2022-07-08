@@ -12,6 +12,7 @@ body {
 header {
   font-size: 2rem;
 }
+
 header,
 form {
   min-height: 20vh;
@@ -41,10 +42,12 @@ form button:hover {
   justify-content: center;
   align-items: center;
 }
+
 .todo-list {
   min-width: 30%;
   list-style: none;
 }
+
 .todo {
   margin: 0.5rem;
   background: white;
@@ -61,6 +64,7 @@ form button:hover {
 .todo li {
   flex: 1;
 }
+
 .trash-btn,
 .complete-btn {
   background: #ff6f47;
@@ -76,18 +80,23 @@ form button:hover {
 .todo-item {
   padding: 0rem 0.5rem;
 }
+
 .fa-trash,
 .fa-check {
   pointer-events: none;
 }
+
 .fall {
   transform: translateY(10rem) rotateZ(20deg);
   opacity: 0;
 }
+
 .completed {
   text-decoration: line-through;
   opacity: 0.5;
-} /*CUSTOM SELECTOR */
+}
+
+/*CUSTOM SELECTOR */
 select {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -97,7 +106,9 @@ select {
   box-shadow: none;
   border: 0 !important;
   background-image: none;
-} /* Custom Select */
+}
+
+/* Custom Select */
 .select {
   margin: 1rem;
   position: relative;
@@ -108,7 +119,8 @@ select {
   font-family: "Poppins", sans-serif;
   cursor: pointer;
   width: 12rem;
-} /* Arrow */
+}
+/* Arrow */
 .select::after {
   content: "\25BC";
   position: absolute;
@@ -118,4 +130,10 @@ select {
   background: #ff6f47;
   cursor: pointer;
   pointer-events: none;
-} /* Transition */ /* .select:hover::after { transform: scale(1.5); } */
+}
+/* Transition */
+/*
+.select:hover::after {
+  transform: scale(1.5);
+}
+*/
