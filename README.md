@@ -1,24 +1,19 @@
-# Simple ReactJS Weather App
+# ReactJS TODO App
 
-This project is developed with ReactJS and [Weatherapi](https://www.weatherapi.com/).
+This project is developed with [ReactJS]([https://www.weatherapi.com/](https://reactjs.org/)).
 
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `npm install`
+
+Install required dependencies.
 
 ### `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## Demo [https://reactjs-weather-98.herokuapp.com/](https://reactjs-weather-98.herokuapp.com/)
-
-### Colombo
-
-![Screenshot (68)](https://user-images.githubusercontent.com/68820649/178000250-5aee7379-0d83-478e-a793-e303e74f2b60.png)
-
-### Moscow
-
-![Screenshot (70)](https://user-images.githubusercontent.com/68820649/178000438-76fd34ca-e5c4-4fbf-ab34-e7ccec1b874d.png)
-
+## Demo [https://reactjs-todo-98.herokuapp.com/](https://reactjs-todo-98.herokuapp.com/)
 
