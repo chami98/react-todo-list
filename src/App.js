@@ -54,8 +54,10 @@ function App() {
   return (
     <div className="App">
       <header>
-        <h1>TODO List</h1>
+        <h1 className="animate-charcter">TODO List</h1>
       </header>
+
+    
       <Form
         setinputText={setinputText}
         inputText={inputText}
