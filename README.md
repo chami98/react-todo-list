@@ -8,11 +8,16 @@ This project is developed with [ReactJS]([https://www.weatherapi.com/](https://r
 
 In the project directory, you can run:
 
-### `npm install`
+```
+npm install
+```
 
 Install required dependencies.
 
-### `npm start`
+
+```
+npm start
+```
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
